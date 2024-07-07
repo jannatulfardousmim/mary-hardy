@@ -1,0 +1,137 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .open-sans-normal{
+    height:200px ;
+  }
+  .header{
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,right bottom;
+   
+  }
+  
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.text{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+   list-style: none;
+   margin-left: 50px; 
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.dark-2{
+    color:#474747;
+}
+.btn{
+    background-color:#FD6E0A;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+
+}
+.subtitle{
+    font-size: 45px;
+    font-weight: 600px;
+}
+.title{
+    font-size: 45px;
+    font-weight: bold;
+    color: #181818;
+}
+.ban-description{
+    font-size: 18px;
+    color: #757575;
+}
+.pic{
+    width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-contain{
+    max-width: 580px;
+    text-align: center;
+}
+.btn-con{
+    display: flex;
+    justify-content: space-evenly;
+
+ 
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+  
+}
+.main{
+    
+    justify-content: center;
+    align-items: center;
+  
+    padding:131px 157px  131px 157px ;
+    
+    text-align: center;
+    margin-top: 130px;
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.colour{
+    background-color:white ;
+    border: 1px solid #757575;
+}
+.dip{
+    font-size: 12px;
+    color: #757575;
+}
+.h4{
+    font-size: 25px;
+    color: #181818;
+}
+.icon{
+display: flex;
+gap: 24px;
+}
+.skill-icon{
+    padding: 34px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill{
+    text-align: center;
+    margin-top: 120px;
+    background-color:white;
+}
+.he{
+    padding: 100px 0px 5px 0;
+}
